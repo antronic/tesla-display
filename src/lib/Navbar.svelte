@@ -19,6 +19,10 @@
     <div class="">
       <!-- Title -->
       <p class="text-white">Tesla dashboard 2 edited just now</p>
+      <!-- Green Sign in button -->
+      <button class="bg-green-500 text-white px-4 py-2 rounded-md">
+        Sign in
+      </button>
     </div>
     <div class="flex justify-end text-blue-500 text-xl">
       <button class="" on:click={addNewQuickAccess}>
