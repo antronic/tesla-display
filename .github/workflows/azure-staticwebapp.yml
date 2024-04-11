@@ -71,11 +71,11 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match you app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: ${{ env.APP_LOCATION }}
+          app_location: ${{ vars.APP_LOCATION }}
           skip_api_build: true
           # api_location: ${{ env.API_LOCATION }}
           # app_artifact_location: ${{ env.APP_ARTIFACT_LOCATION }}
-          output_location: ${{ env.OUTPUT_LOCATION }}
+          output_location: ${{ vars.OUTPUT_LOCATION }}
           # output_location: 'dist'
           ###### End of Repository/Build Configurations ######
 
