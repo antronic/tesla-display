@@ -18,7 +18,7 @@
   <div class="grid grid-cols-2">
     <div class="">
       <!-- Title -->
-      <p class="text-white">Tesla dashboard</p>
+      <p class="text-white">Tesla dashboard 2 edited just now</p>
     </div>
     <div class="flex justify-end text-blue-500 text-xl">
       <button class="" on:click={addNewQuickAccess}>
